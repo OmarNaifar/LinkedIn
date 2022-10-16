@@ -1,0 +1,157 @@
+.account{
+    width: 70%;
+    /* margin: 0 20px; */
+   min-width: 480px;
+   max-width: 1000px;
+   /* background-color: white; */
+   margin-top: 10px;
+  
+
+}
+
+
+.account_avatar{
+    margin-bottom: 10px;
+    width: 150px !important;
+    height: 150px !important;
+}
+.avatar_account{
+    padding: 5px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.account_inputContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.account_input{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+
+}
+.account_details{
+    padding: 5px;
+   background-color: white;
+    /* width: 100%; */
+    border-radius:10px ;
+    margin-bottom: 10px;
+}
+.account_details> img{
+    object-fit: cover;
+    margin-bottom: -50px;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.account_input>form{
+    display: flex;
+    width: 100%;
+}
+.account_input>form>input{
+    border: none;
+    flex:1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 400;
+}
+.account_input>form>button{
+    display: none;
+}
+.account_options{
+    display: flex;
+    justify-content: space-evenly;
+}
+.showall{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 22px;
+    margin-top: 10px;
+    justify-content:flex-end;
+
+    margin-bottom: 10px;
+    /* color: gray; */
+    /* background-color:#eef3f8 ; */
+}
+.showall>button{
+    border-radius:  10px;
+    /* padding: 10px; */
+    margin-left: 20px;
+    border: none;
+    background-color:#0074b1;
+    color: #eef3f8 ;
+    padding:10px;
+    
+}
+
+.account_inf{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 50px; */
+}
+.account_info{
+    margin-top: 50px;
+    margin-left:20px;
+}
+.account_info>h2{
+    font-size: 24px;
+    max-width :300px;
+    /* margin: 10px; */
+    /* word-wrap: break-word; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* margin-bottom: 10px; */
+}
+.account_info >h4{
+    color:gray;
+    font-size: 16px;
+    max-width:400px;
+    margin-top: 10px;
+    margin-left:2px;
+
+    /* overflow:hidden; */
+    /* text-overflow:ellipsis; */
+   
+    word-wrap: break-word;
+}
+.followers{
+    display: flex;
+    flex-direction: row;
+    
+    /* align-items: center; */
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+       
+}
+.follow_button{
+    margin-right: 10px;
+}
+.nb_followers{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}.nb_followers>h4{
+    font-size: 14px;
+    color: gray;
+}
+.account_postContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
